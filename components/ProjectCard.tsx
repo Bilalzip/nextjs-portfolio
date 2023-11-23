@@ -1,12 +1,14 @@
 import React from 'react';
+import Link from "next/link";
 
 interface Props {
     image: string;
     title: string;
     text: string;
+    url: string;
 }
 
-const ProjectCard = ({ image, title, text }: Props) => {
+const ProjectCard = ({ image, title, text,url }: Props) => {
     return (
         <div className='w-[450px] h-[280px] rounded-md cursor-pointer overflow-hidden shadow-lg'>
             <div className='w-full h-full bg-cover bg-center relative'>
@@ -17,7 +19,9 @@ const ProjectCard = ({ image, title, text }: Props) => {
                 />
                 <div className='absolute inset-0 bg-black opacity-0 hover:opacity-40 transition-opacity duration-300'>
                     <div className='absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold'>
-                        Learn more &gt;
+                       <Link
+                       href={url}  passHref
+                       ><button>Learn more</button></Link>  &gt;
                     </div>
                 </div>
             </div>

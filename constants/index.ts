@@ -79,37 +79,28 @@ export const SkillData = [
 export const Socials = [
   {
     name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
+    src: "/discord.svg",
+    link: "https://discord.com/users/web3bilal6089"
   },
   {
     name: "Instagram",
-    src: "/discord.svg",
+    src: "/instagram.svg",
+    link: "https://www.instagram.com/bilal.web3/"
   },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Weather Forcast App",
+    text: "This app uses open weather map api to show the weather around you",
+    src: "/weather.png",
+    url: 'https://spontaneous-madeleine-6db47a.netlify.app/'
   },
+  
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
-  },
-  {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
-  },
-  {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Ecommerce WebApp",
+    text: "This is a full stack ecommerce solution",
     src: "/Matrix.png",
+    url: 'https://github.com/Bilalzip/fullstack_ecommerce'
   },
 ];
 

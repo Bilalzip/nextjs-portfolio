@@ -1,6 +1,8 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+
 
 const Navbar = () => {
   return (
@@ -16,23 +18,31 @@ const Navbar = () => {
           /> */}
         </div>
         <h1 className="text-white text-[25px] font-semibold">
-          Web3{" "}
+          Web3
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-            {" "}
-            Ninjas{" "}
+            
+            Ninjas
           </span>
         </h1>
       </div>
 
       <div className="flex flex-row gap-5 mb-2">
         {Socials.map((social) => (
-          <Image
+         <Link
+         href={social.link} passHref
+         >
+
+<Image
             key={social.name}
             src={social.src}
             alt={social.name}
             width={28}
             height={28}
-          />
+          /> 
+         
+         </Link>
+        
+       
         ))}
       </div>
     </div>

@@ -18,6 +18,8 @@ const Navigation = () => {
     }
   }, [path, prevPath]);
 
+
+
   useEffect(() => {
     if (isRouting) {
       setPrevPath(path);
@@ -27,7 +29,7 @@ const Navigation = () => {
 
       return () => clearTimeout(timeout);
     }
-  }, [isRouting]);
+  }, [isRouting , path]);
   return (
     <div
     style={{ left: "20%" }}
