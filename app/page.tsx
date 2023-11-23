@@ -11,10 +11,10 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-         <h1 className="text-[50px] text-white font-semibold">
-  Make anything possible with
+         <h1 className="text-4xl text-white font-semibold">
+  Make anything possible <br /> with
   <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-    &#34;Web Development&#34;
+   Web Development
   </span>
 </h1>
 
@@ -22,7 +22,6 @@ export default function Home() {
           I am m Mohd Bilal, Founder of Web3 Ninjas and a seasoned Full Stack Software Developer 
           with exceptional experience in web-based technologies
           </p>
-
 
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
