@@ -14,9 +14,9 @@ export default function Home() {
           <h1 className="text-[50px] text-white font-semibold">
             Make anything possible with
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              {" "}
-              Web Development
-            </span>
+  {" "}
+  Web Development
+</span>
           </h1>
           <p className="text-gray-200 hidden md:block">
           " I'm Mohd Bilal, Founder of Web3 Ninjas and a seasoned Full Stack Software Developer 
@@ -30,12 +30,11 @@ export default function Home() {
               Learn more
             </Link>
             <Link
-              href="/my-projects"
-              className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
-            >
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
-              My projects
-            </Link>
+  href="/my-projects"
+  className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+>
+  My projects
+</Link>
             <Link
               href="/contact-me"
               className="rounded-[20px] group relative bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
