@@ -21,6 +21,8 @@ export default function Home() {
           " I'm Mohd Bilal, Founder of Web3 Ninjas and a seasoned Full Stack Software Developer 
           with exceptional experience in web-based technologies."
           </p>
+
+
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
@@ -29,11 +31,11 @@ export default function Home() {
               Learn more
             </Link>
             <Link
-  href="/my-projects"
-  className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
->
-  My projects
-</Link>
+           href="/my-projects"
+           className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+           >
+           My projects
+           </Link>
             <Link
               href="/contact-me"
               className="rounded-[20px] group relative bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
@@ -45,7 +47,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
+      {/* <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
         <Link
           href="/my-skills"
           className="rounded-[20px] group bg-blue-500 px-5 py-3 text-lg text-white max-w-[200px]"
@@ -65,7 +67,7 @@ export default function Home() {
         >
           Contact me
         </Link>
-      </div>
+      </div> */}
 
       <div className="absolute bottom-0 right-0 z-[10]">
         <Image
