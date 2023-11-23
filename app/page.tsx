@@ -11,15 +11,16 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with
-            <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              Web Development
-</span>
-          </h1>
+         <h1 className="text-[50px] text-white font-semibold">
+  Make anything possible with
+  <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+    &#34;Web Development&#34;
+  </span>
+</h1>
+
           <p className="text-gray-200 hidden md:block">
-          " I'm Mohd Bilal, Founder of Web3 Ninjas and a seasoned Full Stack Software Developer 
-          with exceptional experience in web-based technologies."
+          I am m Mohd Bilal, Founder of Web3 Ninjas and a seasoned Full Stack Software Developer 
+          with exceptional experience in web-based technologies
           </p>
 
 
@@ -46,28 +47,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
-        <Link
-          href="/my-skills"
-          className="rounded-[20px] group bg-blue-500 px-5 py-3 text-lg text-white max-w-[200px]"
-        >
-          Learn more
-        </Link>
-
-        <Link
-          href="/my-projects"
-          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
-        >
-          My projects
-        </Link>
-        <Link
-          href="/contact-me"
-          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
-        >
-          Contact me
-        </Link>
-      </div> */}
 
       <div className="absolute bottom-0 right-0 z-[10]">
         <Image
